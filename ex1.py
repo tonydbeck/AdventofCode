@@ -10,14 +10,14 @@ for x in f:
         b = a       
         a = int(x)
         if a > b:
-            noOfIncrease = noOfIncrease + 1
+            noOfIncrease += 1
             print(str(a) + " (increased)  Increases: " + str(noOfIncrease))
             
         else:
-            noOfDecrease = noOfDecrease + 1
+            noOfDecrease += 1
             print(str(a) + " (decreased)  Decreases: " + str(noOfDecrease))
             
     else:
         print(str(int(x)) + "(N/A - no previous measurement)")
-    counter = counter + 1
+    counter += 1
     
